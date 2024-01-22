@@ -18,3 +18,14 @@ print(x[3:5])
 
 x="auf wiedersehen"
 print(x[:4])
+
+#modify str
+
+a = "Hello, World!"
+print(a.upper())
+
+a = "Hello, World!"
+print(a.lower())
+
+a = " Hello, World! "
+print(a.strip())
