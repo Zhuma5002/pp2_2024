@@ -29,3 +29,15 @@ print(a.lower())
 
 a = " Hello, World! "
 print(a.strip())
+
+#concatenate str
+
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
