@@ -37,3 +37,10 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+#output variables
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
