@@ -22,3 +22,7 @@ z = -5j
 print(type(x))
 print(type(y))
 print(type(z))
+
+#random
+import random
+print(random.randrange(1,20))
