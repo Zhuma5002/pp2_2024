@@ -44,3 +44,15 @@ x = "Python "
 y = "is "
 z = "awesome"
 print(x + y + z)
+
+#global variables
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
