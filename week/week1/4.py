@@ -29,3 +29,11 @@ x = y = z = "Kazakhstan"
 print(x)
 print(y)
 print(z)
+
+#list, tuple, etc
+
+fruits = ["porsche", "volkswagen", "audi"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
