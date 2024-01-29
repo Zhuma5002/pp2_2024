@@ -31,9 +31,10 @@ for x in fruits:
   for x in range(2, 30, 5):
    print(x) # it will putput 2 7 12 17 22 27
 
-   for x in range(6):
-  if x == 3: break
-  print(x)
+  for x in range(6):
+   if x == 3: break
+   print(x)
 else:
-  print("Finally finished!") # else in for loop
+   print("Finally finished!") # else in for loop
+
 
