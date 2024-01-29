@@ -27,3 +27,7 @@ for x in fruits:
 
   for x in range(6):
    print(x) # range function 0 1 2 3 4 5
+
+  for x in range(2, 30, 5):
+   print(x) # it will putput 2 7 12 17 22 27
+
