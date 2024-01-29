@@ -24,3 +24,6 @@ for x in fruits:
   if x == "banana":
     continue
   print(x) # it doesnt print banana bcz of continnue 
+
+  for x in range(6):
+   print(x) # range function 0 1 2 3 4 5
