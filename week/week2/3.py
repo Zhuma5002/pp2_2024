@@ -39,3 +39,21 @@ print(x) # This operator is used to perform Bitwise right shift on the operands 
 x=5
 x<<=3
 print(x) #This operator is used to perform Bitwise left shift on the operands and then assigning result to the left operand.
+
+#comprison operators:
+
+x = 5
+y = 3
+print(x == y) # returns False because 5 is not equal to 3
+
+x = 5
+y = 3
+print(x != y) # returns True because 5 is not equal to 3
+
+x = 5
+y = 3
+print(x > y) # returns True because 5 is greater than 3
+
+x = 5
+y = 3
+print(x >= y) # returns True because five is greater, or equal, to 3
