@@ -8,7 +8,7 @@ pygame.display.set_caption("Spotify")
 pygame.display.set_icon(pygame.image.load("logo.png"))
 
 pygame.mixer.init()
-playlist = ["Divenire.mp3","In Un'Altra Vita.mp3","Oltremare.mp3"]
+playlist = ["Divenire.mp3","In Un'Altra Vita.mp3","Oltremare.mp3","кызыл орик.mp3"]
 current_track_index = 0
 pygame.mixer.music.load(playlist[current_track_index])
 music = pygame.mixer.music.load("Divenire.mp3")
