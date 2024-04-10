@@ -19,7 +19,7 @@ image = pygame.image.load("mainclock.png").convert()
 image = pygame.transform.scale(image, (W, H))
 
 rarm = pygame.image.load('rightarm.png')
-rarm = pygame.transform.scale(rarm, (700, 535))
+rarm = pygame.transform.scale(rarm, (700, 600))
 
 
 right_arm_rect = rarm.get_rect()
@@ -31,7 +31,7 @@ angle_right = -(minute * 6) - 36
 
 
 larm = pygame.image.load('leftarm.png')
-larm = pygame.transform.scale(larm, (50,535))
+larm = pygame.transform.scale(larm, (50,600))
                                   
 left_arm_rect = larm.get_rect()
 left_arm_rect.bottom = 610
