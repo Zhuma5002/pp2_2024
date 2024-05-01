@@ -1,0 +1,5 @@
+host="localhost"
+user="postgres"
+port="5432"
+password="123"
+db_name="phone"

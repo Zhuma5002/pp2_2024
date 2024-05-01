@@ -8,7 +8,7 @@ W = 800
 H= 600
 
 screen = pygame.display.set_mode((W, H))
-pygame.display.set_caption("Niggamaus Clock")
+pygame.display.set_caption("Mickey Clock")
 
 current_time = datetime.datetime.now().time()
 minute = current_time.minute
